@@ -8,8 +8,8 @@ public static class GameBootstrap
     private static readonly Color AccentColor = new Color(0.36f, 0.55f, 0.98f);
 
     //애드몹 실제 광고 단위 ID
-    private const string RealInterstitialAdUnitId = "ca-app-pub-5339301765152973/7570925291";
-    private const string RealRewardedAdUnitId = "ca-app-pub-5339301765152973/5575317340";
+    private const string RealInterstitialAdUnitId = "AD ID";
+    private const string RealRewardedAdUnitId = "AD ID";
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     private static void AutoSetup()
