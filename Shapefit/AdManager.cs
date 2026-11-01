@@ -11,8 +11,8 @@ public class AdManager : MonoBehaviour
     private const string TestRewardedId = "ca-app-pub-3940256099942544/5224354917";
 
     [Header("실제 배포용 광고 단위 ID,비워둘 시 위 ID 사용")]
-    public string interstitialAdUnitId = "ca-app-pub-5339301765152973/7570925291";
-    public string rewardedAdUnitId = "ca-app-pub-5339301765152973/5575317340";
+    public string interstitialAdUnitId = "AD ID";
+    public string rewardedAdUnitId = "AD ID";
 
     private InterstitialAd interstitialAd;
     private RewardedAd rewardedAd;
